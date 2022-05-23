@@ -7222,9 +7222,13 @@
             margin-top: 5rem;
         }
         
+        .lis_w h11 {
+            display: none;
+        }
+        
         @media (max-width: 1020px) {
             .listing {
-                width: 13.5rem !important;
+                width: 10.5rem !important;
                 margin-left: 20px !important;
             }
             .dsdsz {
@@ -7234,19 +7238,25 @@
             .media-section .media-wrapper {
                 overflow-x: scroll;
             }
+            .listing svg {
+                margin-right: 13px;
+                width: 70px;
+            }
         }
         
         @media (max-width: 520px) {
             .lis_w h10 {
                 font-size: 12px;
                 text-align: center;
+                display: none;
+            }
+            .lis_w h11 {
+                font-size: 12px;
+                text-align: center;
+                display: block;
             }
             .lis_w span {
                 font-size: 14px;
-            }
-            .listing svg {
-                margin-right: 0;
-                width: 70px;
             }
             .footer {
                 margin-top: 1.75rem !important;
@@ -7398,6 +7408,9 @@
                                 <h10 data-v-31876a2d="">
                                     Листинг на Binance
                                 </h10>
+                                <h11 data-v-31876a2d="">
+                                    Листинг
+                                </h11>
                                 <span>29 мая</span>
                             </div>
 
